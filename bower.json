@@ -1,0 +1,35 @@
+{
+  "name": "slides-continuous-integration-services",
+  "homepage": "https://github.com/paulodiovani/slides-continuous-integration-services",
+  "authors": [
+    "Paulo Diovani <paulo@diovani.com>"
+  ],
+  "description": "Continuous Integration Services for Quality Assurance",
+  "main": [
+    "css/*.css",
+    "img/**/*.{jpg,png,svg}",
+    "js/pointer-fix.js",
+    "*.md",
+    "cover.jpg",
+    "index.html"
+  ],
+  "keywords": [
+    "ci",
+    "continuous",
+    "integration",
+    "software",
+    "quality"
+  ],
+  "license": "CC-BY-NC-SA",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "^3.3.0"
+  }
+}
